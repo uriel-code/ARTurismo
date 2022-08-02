@@ -1,0 +1,122 @@
+.presentacion {
+    width: 100%;
+    height: 100%;
+}
+
+.body{
+    background-color: black;
+}
+
+.nav {
+    position: fixed; /* Set the navbar to fixed position */ 
+}
+
+.media {
+    border-top: 1px solid #bfbfbf;
+    padding-top: 20px;
+}
+
+.media img {
+    margin-right: 20px;
+}
+
+.media .nombre {
+    color: #4b65d1;
+}
+
+.media .nombre span {
+    font-size: 12px;
+    color: #464646;
+    margin-left: 10px;
+}
+
+.media .fecha {
+    text-align: left;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+.card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.slider {
+    width: 1105px;
+    height: 560px;
+}
+
+.card-body {
+    background-color: darkgray;
+}
+
+.tituloNosotros {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.card-nosotros {
+    text-align: justify;
+}
+
+.btn-regresar { 
+	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
+
+.h1-hola {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.pa-presentacion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    color: gray;
+}
+
+.comentario {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #464646;
+}
+
+.titulo-monumentos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.titulo-nos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.Contactos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.contactos-targeta {
+    width: 60%;
+    height: 30%;
+}
+

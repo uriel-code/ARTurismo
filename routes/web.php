@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MisionesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,10 @@ Route::get('/Monumentos', function () {
     return view('Monumentos');
 })->name('Monumentos');
 
+Route::get('/Funciones', function () {
+    return view('Funciones');
+})->name('Funciones');
+
 Route::get('/Nosotros', function () {
     return view('Nosotros');
 })->name('Nosotros');
@@ -32,3 +37,14 @@ Route::get('/Nosotros', function () {
 Route::get('/Contactos', function () {
     return view('Contactos');
 })->name('Contactos');
+
+Route::get('/MonumentoMisiones', function () {
+    return view('MonumentoMisiones');
+})->name('MonumentoMisiones');
+
+
+//Mostrar comentarios
+Route::get('/MonumentoMisiones',[MisionesController::class,'Comentarios'])->name('ver-registros');
+
+//Agregar comentario
+Route::post('/MonumentoMisiones',[MisionesController::class,'store'])->name('addComentario'); 
